@@ -30,7 +30,7 @@ const HeroSection = () => {
             >
               ♦ Book Appointment
             </a>
-            <span className="text-sm">Call: 9163 532 538</span>
+            <span className="text-sm">Whatsapp: 9607184781</span>
           </div>
         </div>
 

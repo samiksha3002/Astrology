@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* Brand Info */}
         <div>
-          <h2 className="text-2xl font-bold mb-3">Dr. Sohini Sastri</h2>
+          <h2 className="text-2xl font-bold mb-3">Dr. Astha Maheshwari</h2>
           <p className="text-sm leading-relaxed">
             Trusted and awarded astrologer with decades of experience in Vedic
             astrology, palmistry, and tantra practices. Honored with Grand Ph.D.
@@ -49,8 +49,15 @@ const Footer = () => {
         {/* Contact Info */}
         <div>
           <h3 className="text-xl font-semibold mb-3">Get in Touch</h3>
-          <p className="text-sm">Call: +91 916 353 2538</p>
-          <p className="text-sm">Email: info@drsohinisastri.com</p>
+          <a
+            href="https://wa.me/919607184781"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-sm hover:underline text-green-700"
+          >
+            📱 Chat on WhatsApp: +91 96071 84781
+          </a>
+          <p className="text-sm mt-2">Email: info@asthamaheshwari.com</p>
           <div className="mt-4 flex space-x-4 text-lg">
             <a href="#" className="hover:text-[#9a744e]">
               🌐
@@ -70,7 +77,7 @@ const Footer = () => {
 
       {/* Copyright */}
       <div className="text-center text-xs py-4 border-t border-[#e2d6c5]">
-        &copy; {new Date().getFullYear()} Dr. Sohini Sastri. All rights
+        &copy; {new Date().getFullYear()} Dr. Astha Maheshwari. All rights
         reserved.
       </div>
     </footer>
