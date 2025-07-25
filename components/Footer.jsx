@@ -1,0 +1,80 @@
+import React from "react";
+
+const Footer = () => {
+  return (
+    <footer className="bg-[#fdf7ef] border-t border-[#e2d6c5] text-[#6f4e2d] font-serif">
+      <div className="max-w-7xl mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-3 gap-8">
+        {/* Brand Info */}
+        <div>
+          <h2 className="text-2xl font-bold mb-3">Dr. Sohini Sastri</h2>
+          <p className="text-sm leading-relaxed">
+            Trusted and awarded astrologer with decades of experience in Vedic
+            astrology, palmistry, and tantra practices. Honored with Grand Ph.D.
+            & National Awards.
+          </p>
+        </div>
+
+        {/* Navigation Links */}
+        <div>
+          <h3 className="text-xl font-semibold mb-3">Quick Links</h3>
+          <ul className="space-y-2 text-sm">
+            <li>
+              <a href="/" className="hover:underline">
+                Home
+              </a>
+            </li>
+            <li>
+              <a href="/about" className="hover:underline">
+                About
+              </a>
+            </li>
+            <li>
+              <a href="/services" className="hover:underline">
+                Services
+              </a>
+            </li>
+            <li>
+              <a href="/awards" className="hover:underline">
+                Awards
+              </a>
+            </li>
+            <li>
+              <a href="/contact" className="hover:underline">
+                Contact
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        {/* Contact Info */}
+        <div>
+          <h3 className="text-xl font-semibold mb-3">Get in Touch</h3>
+          <p className="text-sm">Call: +91 916 353 2538</p>
+          <p className="text-sm">Email: info@drsohinisastri.com</p>
+          <div className="mt-4 flex space-x-4 text-lg">
+            <a href="#" className="hover:text-[#9a744e]">
+              🌐
+            </a>
+            <a href="#" className="hover:text-[#9a744e]">
+              📘
+            </a>
+            <a href="#" className="hover:text-[#9a744e]">
+              📸
+            </a>
+            <a href="#" className="hover:text-[#9a744e]">
+              ▶️
+            </a>
+          </div>
+        </div>
+      </div>
+
+      {/* Copyright */}
+      <div className="text-center text-xs py-4 border-t border-[#e2d6c5]">
+        &copy; {new Date().getFullYear()} Dr. Sohini Sastri. All rights
+        reserved.
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
