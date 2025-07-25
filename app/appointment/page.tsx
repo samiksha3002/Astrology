@@ -19,7 +19,7 @@ const AppointmentForm = () => {
     e.preventDefault();
 
     const form = new FormData();
-    form.append("access_key", "d6907de1-88da-4049-b20d-bc731cf12d21"); // ✅ Your Web3Forms access key
+    form.append("access_key", "d6907de1-88da-4049-b20d-bc731cf12d21"); // Web3Forms Key
     form.append("subject", "New Astrology Appointment");
     form.append("name", formData.name);
     form.append("number", formData.number);
@@ -42,7 +42,6 @@ const AppointmentForm = () => {
         email: "",
         dob: "",
         birthTime: "",
-        birthLocation: "",
       });
     } else {
       alert("Something went wrong. Please try again.");
@@ -67,7 +66,7 @@ const AppointmentForm = () => {
         Book an Appointment
       </h1>
 
-      {/* Form with background image */}
+      {/* Form Section */}
       <form
         onSubmit={handleSubmit}
         className="max-w-2xl mx-auto space-y-6 p-6 rounded-xl shadow-lg bg-cover bg-center"
@@ -138,8 +137,6 @@ const AppointmentForm = () => {
               className="w-full border border-gray-300 px-4 py-2 rounded"
             />
           </div>
-
-          {/* Birth Location */}
 
           {/* Submit Button */}
           <button
