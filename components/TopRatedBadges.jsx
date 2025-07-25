@@ -24,9 +24,7 @@ const TopRatedBadges = () => {
 
   return (
     <section className="bg-[#fdf7ef] py-10 px-6 text-center">
-      <p className="text-left italic text-[#6f4e2d] font-semibold text-xl mb-8">
-        Dr. Sohini Sastri
-      </p>
+      <p className="text-left italic text-[#6f4e2d] font-semibold text-xl mb-8"></p>
       <div className="flex flex-col md:flex-row items-center justify-center gap-10">
         {badges.map((badge, index) => (
           <div
