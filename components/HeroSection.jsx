@@ -1,13 +1,17 @@
 "use client";
+
 import React from "react";
 import Image from "next/image";
 
 const HeroSection = () => {
   return (
     <section className="relative bg-white font-['Playfair_Display'] overflow-hidden">
-      {/* Astha Connects Text on Top (overlay style, no gap) */}
+      {/* Astha Connects Text on Top */}
       <div className="absolute top-0 left-1/2 transform -translate-x-1/2 z-30 text-center pt-4">
-        <h1 className="text-2xl md:text-3xl font-bold text-[#3e3526] tracking-wide uppercasepx-4 py-1 rounded-md shadow-sm">
+        <h1
+          className="text-4xl md:text-5xl text-[#3e3526] tracking-wide italic font-normal"
+          style={{ fontFamily: "Italianno, cursive" }}
+        >
           Astha Connects
         </h1>
       </div>
@@ -28,14 +32,13 @@ const HeroSection = () => {
               href="/next"
               className="bg-[#3e3526] text-white px-6 py-3 text-sm hover:bg-[#2f271e]"
             >
-              ♦ Book Appointment
+              ♦ Book Package
             </a>
           </div>
         </div>
 
-        {/* Right Image + Rotating Wheel */}
+        {/* Right Image + Wheel */}
         <div className="relative w-fit">
-          {/* Wheel Image in front */}
           <Image
             src="/astrology-wheel.webp"
             alt="Rotating Wheel"
@@ -43,8 +46,6 @@ const HeroSection = () => {
             height={220}
             className="absolute bottom-[-40px] right-[-30px] lg:right-[-50px] lg:bottom-[-40px] z-20 animate-spinSlow"
           />
-
-          {/* Girl Image behind */}
           <Image
             src="/girl.png"
             alt="Dr. Sohini Sastri"
@@ -55,7 +56,7 @@ const HeroSection = () => {
         </div>
       </div>
 
-      {/* Vertical Text (only on desktop) */}
+      {/* Vertical Text */}
       <div className="hidden lg:block absolute left-2 top-32 rotate-180 writing-vertical text-[12px] text-[#5b4832] tracking-wider uppercase">
         THE BEST ASTROLOGER IN India
       </div>
