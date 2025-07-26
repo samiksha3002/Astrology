@@ -3,21 +3,9 @@ import React from "react";
 const TopRatedBadges = () => {
   const badges = [
     {
-      city: "KOLKATA",
+      city: "India",
       color: "text-[#3e3f2b]",
       border: "border-[#3e3f2b]",
-      stars: "⭐⭐⭐⭐⭐",
-    },
-    {
-      city: "MUMBAI",
-      color: "text-[#9b371d]",
-      border: "border-[#9b371d]",
-      stars: "⭐⭐⭐⭐⭐",
-    },
-    {
-      city: "DELHI",
-      color: "text-[#9c8a6e]",
-      border: "border-[#9c8a6e]",
       stars: "⭐⭐⭐⭐⭐",
     },
   ];

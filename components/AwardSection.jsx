@@ -15,7 +15,7 @@ const AwardSection = () => {
         {/* Left Image with vase and frame */}
         <div className="w-full md:w-1/2 bg-white rounded-3xl shadow-lg p-6">
           <img
-            src="/award-certificate.png"
+            src="/certificate.jpg"
             alt="Award Certificate"
             className="rounded-md mx-auto"
           />
