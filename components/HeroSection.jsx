@@ -6,10 +6,10 @@ import Image from "next/image";
 const HeroSection = () => {
   return (
     <section className="relative bg-white font-['Playfair_Display'] overflow-hidden">
-      {/* Astha Connects Text on Top */}
-      <div className="absolute top-0 left-1/2 transform -translate-x-1/2 z-30 text-center pt-4">
+      {/* Astha Connects Text on Top (single line) */}
+      <div className="absolute top-4 left-1/2 transform -translate-x-1/2 z-30 text-center">
         <h1
-          className="text-4xl md:text-5xl text-[#3e3526] tracking-wide italic font-normal"
+          className="text-5xl md:text-6xl text-[#3e3526] tracking-wide italic font-normal text-nowrap"
           style={{ fontFamily: "Italianno, cursive" }}
         >
           Astha Connects
@@ -48,7 +48,7 @@ const HeroSection = () => {
           />
           <Image
             src="/girl.png"
-            alt="Dr. Sohini Sastri"
+            alt="Dr. Astha Maheshwari"
             width={380}
             height={380}
             className="rounded-xl relative z-10 shadow-md"

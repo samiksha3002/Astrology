@@ -6,11 +6,11 @@ const TopMarquee = () => {
       <div className="inline-block animate-marquee text-center text-sm sm:text-base tracking-wider">
         <span className="mx-10">
           IN India ☀ VEDIC ASTROLOGER ☀ TOP RATED ASTRO PALMIST ☀ TWO TIMES
-          PRESIDENT’S AWARD WINNER ☀ RELIABLE TANTRIK
+          AWARD WINNER ☀ RELIABLE PALMIST
         </span>
         <span className="mx-10">
           IN India ☀ VEDIC ASTROLOGER ☀ TOP RATED ASTRO PALMIST ☀ TWO TIMES
-          PRESIDENT’S AWARD WINNER ☀ RELIABLE TANTRIK
+          AWARD WINNER ☀ RELIABLE PALMIST
         </span>
       </div>
     </div>
