@@ -27,10 +27,10 @@ const AwardSection = () => {
             Grand Ph.D. in Astrology
           </h2>
           <p className="text-base leading-relaxed text-[#5f4e3a]">
-            Dr. Sohini Sastri’s remarkable achievement of receiving the Grand
+            Dr. Astha Maheshwari's remarkable achievement of receiving the Grand
             Ph.D. in Astrology from the National American University stands as a
             testament to her exceptional contributions to the field. As the sole
-            astrologer honored with this prestigious award, Dr. Sastri’s
+            astrologer honored with this prestigious award, Dr. Maheshwari’s
             recognition highlights her profound expertise, dedication, and
             influence in astrology. Her work not only elevates the standards of
             astrological practice but also inspires peers and enthusiasts

@@ -12,7 +12,6 @@ export default function BookPage() {
       <div className="w-full h-[80vh] sm:h-[90vh] max-w-[500px] mb-6 rounded-xl overflow-hidden border border-gray-700 shadow-xl">
         <video
           src="/videoplus.mp4"
-          controls
           autoPlay
           muted
           loop
