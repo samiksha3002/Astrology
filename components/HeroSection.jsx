@@ -25,12 +25,11 @@ const HeroSection = () => {
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
             <a
-              href="/appointment"
+              href="/next"
               className="bg-[#3e3526] text-white px-6 py-3 text-sm hover:bg-[#2f271e]"
             >
               ♦ Book Appointment
             </a>
-            <span className="text-sm">Whatsapp: 9607184781</span>
           </div>
         </div>
 
@@ -58,7 +57,7 @@ const HeroSection = () => {
 
       {/* Vertical Text (only on desktop) */}
       <div className="hidden lg:block absolute left-2 top-32 rotate-180 writing-vertical text-[12px] text-[#5b4832] tracking-wider uppercase">
-        THE BEST ASTROLOGER IN KOLKATA
+        THE BEST ASTROLOGER IN India
       </div>
     </section>
   );

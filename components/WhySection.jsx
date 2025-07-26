@@ -49,7 +49,7 @@ const WhySection = () => {
 
       {/* Button with Link */}
       <div className="mt-10">
-        <Link href="/appointment">
+        <Link href="/next">
           <button className="bg-[#3e3526] text-white px-6 py-3 text-sm hover:bg-[#2f271e]">
             ♦ Book Appointment
           </button>
